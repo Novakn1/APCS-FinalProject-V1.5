@@ -18,10 +18,10 @@ public class Help extends ScrollActor
     public void act() 
     {
     
-       if (Greenfoot.mouseClicked(this)) {
-            setImage(Instructions);
+     
+            
            
-    }    
+      
 
     }    
 }

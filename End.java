@@ -19,5 +19,6 @@ public class End extends ScrollWorld
         super(900, 900, 1, 5000, 5000);
           setCameraLocation(2500,2500);
           
+         addObject(new Keith(1000,10,40), 4000, 4000 );
     }
 }

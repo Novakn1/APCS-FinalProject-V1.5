@@ -21,6 +21,6 @@ public class Menu extends ScrollWorld
        addCameraFollower(new Player(), 0, 0);
        addCameraFollower( new GardenInTheSky(),0 , -300);
        addCameraFollower( new Start(), 0, 265);
-       addCameraFollower(new Help(), -350, 400);
+       addCameraFollower(new Help(), -360, 440);
     }
 }

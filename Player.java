@@ -23,7 +23,7 @@ public class Player extends Character
     public void act(){
         followMouse(5);
         //first follows mouse
-        attack(100, 20);
+        attack(10000, 100000);
         //then attacks if a is pressed
         /*
           if(getOneTouchedObject(TeleportArena2.class) != null){
@@ -146,6 +146,21 @@ public class Player extends Character
                         close.get(i).setPause(10);
                     }
                 }
+                 List<Boss> closeB = getObjectsInRange(range, Boss.class);
+                if (closeB.size()>0){
+                    for (int i = 0; i<closeB.size(); i++){
+                        closeB.get(i).setHealth(closeB.get(i).getHealth()-(int)(getAttack()/closeB.get(i).getDefense()+1));
+                        closeB.get(i).setPause(10);
+                    }
+                }
+                List<Keith> closeK = getObjectsInRange(range, Keith.class);
+                if (closeK.size()>0){
+                    for (int i = 0; i<close.size(); i++){
+                        closeK.get(i).setHealth(closeK.get(i).getHealth()-(int)(getAttack()/closeK.get(i).getDefense()+1));
+                        closeK.get(i).setPause(10);
+                    }
+                }
+                
                 for (int x = 0; x < anim.length; x++) {
                         setImage(anim[x]);
                         Greenfoot.delay(5);    

@@ -38,6 +38,7 @@ public class Character extends Collision
         List<Sword> sword = getObjectsAtOffset(0, 0, Sword.class);
         List<Shield> shield= getObjectsAtOffset(0,0, Shield.class);
         List<Potion> potion = getObjectsAtOffset(0,0, Potion.class);
+        List<A> a = getObjectsAtOffset(0,0, A.class);
         if(potion.size()>0) {
             //Item item = new Potion();
             health += potion.get(0).getHealth();
@@ -54,6 +55,9 @@ public class Character extends Collision
             //Sword item = new Sword();
             attack += sword.get(0).getAttack();
             getWorld().removeObject(sword.get(0));
+        }
+        if(a.size() >0){
+            getWorld().removeObject(a.get(0));
         }
     }
     public int getHealth(){

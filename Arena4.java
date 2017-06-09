@@ -187,9 +187,9 @@ public class Arena4 extends ScrollWorld
     }
      public void act(){
                 if(getObjects(Enemy.class).size()==0){
-                    ScrollWorld end = new End();
-                    end.addCameraFollower(new Player(), 0, -150);
-                    Greenfoot.setWorld(end);
+                    ScrollWorld boss = new BossArena();
+                    boss.addCameraFollower(new Player(), 0, -150);
+                    Greenfoot.setWorld(boss);
                 }
             }
 }
