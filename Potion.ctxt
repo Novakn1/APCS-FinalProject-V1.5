@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=heath\ attack\ defense
+comment0.target=Potion(int,\ int,\ int)
+comment1.params=
+comment1.target=int\ getAttack()
+comment2.params=attack
+comment2.target=void\ setAttack(int)
+comment3.params=
+comment3.target=int\ getDefense()
+comment4.params=defense
+comment4.target=void\ setDefense(int)
+comment5.params=
+comment5.target=int\ getHealth()
+comment6.params=health
+comment6.target=void\ setHealth(int)
+numComments=7

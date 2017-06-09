@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\ \r\n\ pushes\ player\ and\ enemy\ away\ from\ wall\ when\ is\ touching.\r\n\ TA\r\n
+numComments=1

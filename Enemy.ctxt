@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Enemy()
+comment1.params=health\ attack\ defense
+comment1.target=Enemy(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ If\ pause\ is\ set\ to\ a\ number\ grater\ than\ zero\ it\ will\ sit\ for\ pause\ number\ of\ acts.\r\n\ Otherwise\ it\ will\ first\ see\ if\ anyone\ is\ close\ and\ go\ through\ its\ attack\ animations\ anwill\ die\ if\ health\ goes\ below\ 0.\ \r\n
+comment3.params=
+comment3.target=boolean\ findClosestPlayer()
+comment3.text=\r\n\ finds\ the\ closest\ player\ and\ will\ turn\ towards\ it.\ returns\ true\ if\ one\ is\ found\r\n\ and\ returns\ false\ if\ no\ players\ are\ found\r\n\ TA\r\n
+comment4.params=range\ rate
+comment4.target=void\ attackPlayer(int,\ int)
+comment4.text=\r\n\ will\ attack\ all\ players\ within\ the\ given\ range\ every\ rate\ number\ of\ acts.\ if\ all\ players\ leave\ then\r\n\ the\ counter\ refreshes\ so\ when\ a\ new\ player\ enters\ it\ will\ attack\ imediatly.\r\n\ The\ health\ damage\ done\ is\ the\ ratio\ of\ its\ attack\ strenght\ to\ the\ enemies\ defense\ \ \r\n\ It\ also\ pushed\ the\ player\ away\ when\ attacked\ and\ changes\ the\ players\ image\ temporaly\ to\r\n\ show\ damage\r\n\ TA\r\n
+comment5.params=range
+comment5.target=void\ getExcited(int)
+comment5.text=\r\n\ goes\ throgh\ the\ attack\ animation\ for\ the\ eye\ when\ a\ player\ is\ within\ range.\r\n\ TA,NP\r\n
+comment6.params=time
+comment6.target=void\ setPause(int)
+comment6.text=\r\n\ sets\ the\ pause\r\n\ TA\r\n
+comment7.params=
+comment7.target=void\ moveRandom()
+comment7.text=\r\n\ will\ move\ forward\ at\ a\ random\ speed\ of\ either\ 0\ or\ 1\ and\ will\ rotate\ an\ random\ amount\r\n\ between\ -5\ and\ 5\ degrees\r\n\ TA\r\n
+comment8.params=min\ max
+comment8.target=void\ randomSpeed(int,\ int)
+comment8.text=\r\n\ will\ move\ at\ random\ speed\ between\ the\ min\ and\ max\ value\r\n\ TA\r\n
+numComments=9

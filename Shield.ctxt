@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=defense
+comment0.target=Shield(int)
+comment1.params=
+comment1.target=int\ getDefense()
+comment2.params=defense
+comment2.target=void\ setDefense(int)
+numComments=3

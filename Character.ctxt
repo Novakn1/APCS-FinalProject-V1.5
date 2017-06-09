@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Character()
+comment0.text=private\ ArrayList<Item>\ inventory;\r\n\ \ \ \ private\ ArrayList<Sword>\ wpEquipment;\r\n\ \ \ \ private\ ArrayList<Shield>\ arEquipment;\r\n\ \ \ \ private\ Sword\ sword;\r\nprivate\ Shield\ shield;
+comment1.params=health\ attack\ defense
+comment1.target=Character(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ foundItem()
+comment2.text=\r\n\ if\ the\ character\ passes\ over\ a\ potion\ shield\ or\ sword\ it\ will\ \r\n\ add\ the\ value\ of\ the\ item\ to\ its\ powers\r\n\ TA,KB\r\n
+comment3.params=
+comment3.target=int\ getHealth()
+comment4.params=value
+comment4.target=void\ setHealth(int)
+comment5.params=
+comment5.target=int\ getDefense()
+comment6.params=value
+comment6.target=void\ setDefense(int)
+comment7.params=
+comment7.target=int\ getAttack()
+comment8.params=value
+comment8.target=void\ setAttack(int)
+numComments=9

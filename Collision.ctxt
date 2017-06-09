@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=a_big
+comment0.target=boolean\ touch(greenfoot.Actor)
+comment0.text=This\ method\ is\ a\ pixel\ perfect\ collision\ detection.\ Returns\ true,\ if\ the\ object\ touchs\ the\ given\ Actor
+comment1.params=clss
+comment1.target=greenfoot.Actor\ getOneTouchedObject(java.lang.Class)
+numComments=2
